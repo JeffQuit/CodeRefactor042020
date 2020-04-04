@@ -1,0 +1,205 @@
+/* CSS refactored for accessibility and SEO optimization  */
+
+
+
+* { 
+    /* General page attributes */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body { 
+    /* contains background svg pattern and background colors as backups */
+    background-color: #d9dcd6;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5F5F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+header {
+    /* attributes that make up the top blue nav bar */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    overflow: hidden;
+    /* attribues below allow nav bar to be fixed */
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+
+header h1 {
+    /* contains style elements for Horiseon top left logo */
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+header h1 .seo {
+     /* changes the color for letters "seo" in the top left Horiseon logo */
+    color: #d9dcd6;
+}
+
+
+header nav {
+     /* style settings for the top nav bar links */
+    padding-top: 15px;
+    margin-right: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+header nav ul {
+    /* removes list style type to be used as a nav bar link set */
+    list-style-type: none;
+}
+
+
+header nav ul li {
+    /* This selector alligns the three nav bar links side by side */
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+a {
+    /* style details for the nav bar links */
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 100%;
+    padding-bottom: 100%;
+    margin: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+a:hover {
+    /* hover affects for the nav bar links */
+    color: #222222;
+    background-color: #347799;
+
+}
+
+
+p {
+    /* general paragraph settings */
+    font-size: 16px;
+}
+
+
+.hero {
+    /* style settings for center display image of four people working at a desk */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.float-left {
+    /* Class selector to float elements left */
+    float: left;
+    margin-right: 25px;
+}
+
+
+.float-right {
+    /* Class selector to float elements right */
+    float: right;
+    margin-left: 25px;
+}
+
+
+.content {
+    /* container for three boxes that are on the left and center of the page */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+
+aside {
+    /* container on the right hand side */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    Border-radius: 20px;
+}
+
+
+aside article {
+    /* details for the text are for the right container */
+    margin-bottom: 32px;
+    color: #ffffff;
+    
+}
+
+
+aside article h3 {
+    /* details for the titles/headers for this container */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+aside article img {
+    /* image settings for the right container */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+section article {
+    /* container properties for the three center/left article containers */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    Border-radius: 20px;
+}
+
+
+section article figure img {
+    /* image properties for the center/left article images */
+    max-height: 200px;
+}
+
+
+section article h2 {
+    /* style properties for the center/left container titles */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+footer {
+    /* style properties for the footer */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+footer h2 {
+    /* footer title details */
+    font-size: 20px;
+}
